@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.playsound.PlaySound$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dip" >
+
+        <Button
+            android:id="@+id/stt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="StartPlay"
+            android:text="Start Tone" />
+
+        <Button
+            android:id="@+id/stp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="StopPlay"
+            android:text="Stop Tone" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10px"
+        android:layout_marginTop="33dp" />
+
+<TextView
+    android:id="@+id/textViewF"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/seekbar1"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="28dp"
+    android:text="Frequency of tone"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
