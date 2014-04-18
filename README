@@ -1,0 +1,10 @@
+This sample code is built to generate a range of sine tone, from 10Hz to 44kHz.
+
+The first draft of code stimulated from the post at
+http://marblemice.blogspot.com/2010/04/generate-and-play-tone-in-android.html
+and 
+http://audioprograming.wordpress.com/2012/10/18/a-simple-synth-in-android-step-by-step-guide-using-the-java-sdk/
+
+Also refered to another blog
+http://webtutsdepot.com/2011/12/03/android-sdk-tutorial-seekbar-example/
+to create the slider bar.
